@@ -83,7 +83,7 @@
             <div class="status @if($table->status) occupied @else free @endif">
                 @if($table->status == 'occupied')
                     Occupied
-                @else
+                @elsedsafdf
                     Free
                 @endif
             </div>
